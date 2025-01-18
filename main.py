@@ -1,6 +1,3 @@
-# this allows us to use code from
-# the open-source pygame library
-# throughout this file
 import sys
 import pygame
 from constants import *
@@ -24,7 +21,7 @@ def main():
     Asteroid.containers = (asteroids, updatable, drawable)
     Shot.containers = (shots, updatable, drawable)
     AsteroidField.containers = ((updatable))
-    asteroid_field = AsteroidField()
+
 
     Player.containers = (updatable, drawable)
 
